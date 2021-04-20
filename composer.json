@@ -1,0 +1,37 @@
+{
+    "name": "withcandour/statamic-markdown-table",
+    "description": "Add markdown content to your statamic table cells",
+    "version": "1.0.0",
+    "type": "statamic-addon",
+    "keywords": [
+        "Statamic",
+        "Aardvark",
+        "Candour",
+        "WithCandour",
+        "Tables",
+        "Markdown",
+        "Advanced"
+    ],
+    "authors": [
+        {
+            "name": "Candour",
+            "email": "hello@withcandour.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WithCandour\\MarkdownTable\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Markdown Table",
+            "description": "Add markdown content to your statamic table cells"
+        },
+        "laravel": {
+            "providers": [
+                "WithCandour\\MarkdownTable\\ServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "statamic-markdown-table",
+  "private": true,
+  "description": "Markdown table addon for Statamic",
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "production": "mix --production"
+  },
+  "author": "Candour",
+  "dependencies": {
+    "@shopify/draggable": "^1.0.0-beta.8",
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.10",
+    "postcss": "^8.2.4",
+    "uniqid": "^5.3.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
