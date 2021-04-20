@@ -1,7 +1,7 @@
 {
     "name": "withcandour/statamic-markdown-table",
     "description": "Add markdown content to your statamic table cells",
-    "version": "1.0.0",
+    "version": "1.0.0-beta",
     "type": "statamic-addon",
     "keywords": [
         "Statamic",
